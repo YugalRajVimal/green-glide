@@ -55,9 +55,9 @@ const NavBar = () => {
       {/* Logo */}
       <div className="flex items-center gap-2">
         <img
-          src="/logo.png" // Replace with your logo path
+          src="/Logo.png" // Replace with your logo path
           alt="Green Glide Logo"
-          className="h-8"
+          className="h-10 rounded-full"
         />
         <span className="text-xl font-bold">Green Glide</span>
       </div>

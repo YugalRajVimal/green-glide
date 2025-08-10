@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
-export default function NewFooter() {
+export default function GreenGlideFooter() {
   return (
     <footer className="bg-black text-white">
       {/* Top Section */}
@@ -9,7 +9,7 @@ export default function NewFooter() {
         {/* Subscribe Box */}
         <div className="bg-[#7cc143] rounded-tr-[50px] p-6">
           <h2 className="text-2xl font-semibold mb-4 leading-snug">
-            Sign up for Electric Car, news & insights
+            Sign up for GreenGlide news & ride updates
           </h2>
           <input
             type="email"
@@ -23,25 +23,24 @@ export default function NewFooter() {
 
         {/* Company Info */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Grevo WP Theme</h3>
+          <h3 className="text-xl font-semibold mb-4">GreenGlide</h3>
           <p className="text-gray-300 mb-4">
-            A leading developer of A-grade commercial, electric car and bike
-            projects in USA. Since its foundation the company has doubled its
-            turnover year on year, with its staff numbers.
+            GreenGlide offers eco-friendly electric scooter rentals with flexible plans –
+            weekly, monthly, or rent-to-own. Ride smarter, cleaner, and greener across your city.
           </p>
           <a href="#" className="text-[#7cc143] font-medium">
-            Get a quote →
+            Start Riding →
           </a>
         </div>
 
         {/* Links */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Company info</h3>
+          <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-gray-300">
             <li>› About Us</li>
-            <li>› Our Projects</li>
-            <li>› Meet Our Team</li>
-            <li>› News & Media</li>
+            <li>› Pricing Plans</li>
+            <li>› How It Works</li>
+            <li>› Charging Locations</li>
             <li>› Contact Us</li>
             <li>› Careers</li>
           </ul>
@@ -49,16 +48,18 @@ export default function NewFooter() {
 
         {/* Quick Contact */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Quick Contact</h3>
+          <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <p className="text-gray-300">
-            2307 Beverley Rd Brooklyn, New York 11226 United States.
+            GreenGlide HQ, Connaught Place, New Delhi, India.
           </p>
           <p className="mt-4 text-gray-300">
-            If you have any questions or need help, feel free to contact with
-            our team.
+            Have questions or need assistance? Our support team is here to help.
           </p>
           <p className="text-[#7cc143] text-xl font-bold mt-4">
-            (002) 01061245741
+            +91 98765 43210
+          </p>
+          <p className="text-gray-300 mt-2">
+            support@greenglide.com
           </p>
         </div>
       </div>
@@ -67,24 +68,24 @@ export default function NewFooter() {
       <div className="border-t border-gray-700 py-6">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-400 text-sm flex gap-4">
-            <a href="#">Where to Find Us</a> | <a href="#">Terms of Payment</a>{" "}
-            | <a href="#">Stats Element</a>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> |{" "}
+            <a href="#">Refund Policy</a>
           </div>
           <p className="text-gray-500 text-sm">
-            Copyright © 2021 Grevo, All Rights Reserved.
+            Copyright © {new Date().getFullYear()} GreenGlide, All Rights Reserved.
           </p>
           {/* Social Icons */}
           <div className="flex gap-4">
-            <a href="#" className="p-2 bg-black border border-gray-600">
+            <a href="#" className="p-2 bg-black border border-gray-600 hover:text-[#7cc143]">
               <FaFacebookF />
             </a>
-            <a href="#" className="p-2 bg-black border border-gray-600">
+            <a href="#" className="p-2 bg-black border border-gray-600 hover:text-[#7cc143]">
               <FaTwitter />
             </a>
-            <a href="#" className="p-2 bg-black border border-gray-600">
+            <a href="#" className="p-2 bg-black border border-gray-600 hover:text-[#7cc143]">
               <FaYoutube />
             </a>
-            <a href="#" className="p-2 bg-black border border-gray-600">
+            <a href="#" className="p-2 bg-black border border-gray-600 hover:text-[#7cc143]">
               <FaInstagram />
             </a>
           </div>
