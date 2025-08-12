@@ -1,0 +1,87 @@
+import React from "react";
+
+const ContactSection2 = () => {
+  return (
+    <section className="flex flex-col lg:flex-row w-full min-h-[70vh]">
+      {/* Left Section */}
+      <div className="bg-lime-500 w-full lg:w-1/2 p-8 flex flex-col justify-center text-white">
+        <div>
+          <p className="text-sm font-medium mb-2 flex items-center">
+            <span className="mr-2">•</span> GET IN TOUCH
+          </p>
+          <h2 className="text-4xl font-bold mb-4">Send Message Us</h2>
+          <p className="text-base mb-8">
+            Just send us your questions or concerns to starting a new project.
+          </p>
+
+          {/* Image + Phone */}
+          <div className="flex items-center mb-6">
+            <img
+              src="https://via.placeholder.com/60"
+              alt="profile"
+              className="w-14 h-14 rounded-full object-cover mr-4"
+            />
+            <div>
+              <p className="text-xs">HAVE A QUESTION?</p>
+              <p className="text-xl font-bold">+888 445 55 678 & 89</p>
+            </div>
+          </div>
+
+          {/* Working Hours */}
+          <div className="mb-8 text-sm">
+            <p>Monday – Friday 9.00 – 6.00</p>
+            <p>Sunday & Public Holidays (Closed)</p>
+          </div>
+
+          {/* Request Callback */}
+          <button className="flex items-center gap-2 text-black font-medium hover:underline">
+            REQUEST A CALL BACK <span>→</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Right Section */}
+      <div className="bg-gray-100 w-full lg:w-1/2 flex items-center justify-center p-8">
+        <form className="bg-white w-full max-w-lg p-8 rounded-2xl shadow-md">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+            <input
+              type="text"
+              placeholder="First Name"
+              className="border border-gray-300 p-3 rounded-lg w-full"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              className="border border-gray-300 p-3 rounded-lg w-full"
+            />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="border border-gray-300 p-3 rounded-lg w-full"
+            />
+            <input
+              type="tel"
+              placeholder="Phone"
+              className="border border-gray-300 p-3 rounded-lg w-full"
+            />
+          </div>
+          <textarea
+            placeholder="Message Write Here"
+            rows="5"
+            className="border border-gray-300 p-3 rounded-lg w-full mb-6"
+          ></textarea>
+          <button
+            type="submit"
+            className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 flex items-center gap-2"
+          >
+            SEND MESSAGE →
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection2;
