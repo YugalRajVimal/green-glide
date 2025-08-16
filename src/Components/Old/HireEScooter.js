@@ -10,7 +10,7 @@ export default function HireEScooter() {
         </h2>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Zeway Lite */}
+          {/* Green Glide Lite */}
           <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
             <div>
               <img
@@ -20,7 +20,9 @@ export default function HireEScooter() {
                 height={60}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold text-gray-900">Zeway Lite</h3>
+              <h3 className="text-xl font-bold text-gray-900">
+                Green Glide Lite
+              </h3>
               <p className="text-sm text-gray-500 mt-1">
                 * Scheme valid for annual Subscription. <br />
                 Security deposit required.
@@ -42,17 +44,19 @@ export default function HireEScooter() {
             </button>
           </div>
 
-          {/* Zeway Plus */}
+          {/* Green Glide Plus */}
           <div className="bg-[#C6F6A3] rounded-xl shadow p-6 flex flex-col justify-between">
             <div>
               <img
                 src="/zeway-plus.png"
-                alt="Zeway Plus Logo"
+                alt="Green Glide Plus Logo"
                 width={100}
                 height={60}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold text-gray-900">Zeway Plus</h3>
+              <h3 className="text-xl font-bold text-gray-900">
+                Green Glide Plus
+              </h3>
               <p className="text-sm text-green-900 mt-1">
                 * Scheme valid for annual Subscription. <br />
                 Security deposit required.
@@ -74,17 +78,19 @@ export default function HireEScooter() {
             </button>
           </div>
 
-          {/* Zeway Prime */}
+          {/* Green Glide Prime */}
           <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
             <div>
               <img
                 src="/zeway-prime.png"
-                alt="Zeway Prime Logo"
+                alt="Green Glide Prime Logo"
                 width={100}
                 height={60}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold text-gray-900">Zeway Prime</h3>
+              <h3 className="text-xl font-bold text-gray-900">
+                Green Glide Prime
+              </h3>
               <p className="text-sm text-gray-500 mt-1">
                 * Scheme valid for annual Subscription. <br />
                 Security deposit required.

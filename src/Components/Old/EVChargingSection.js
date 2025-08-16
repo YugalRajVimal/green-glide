@@ -25,26 +25,36 @@ const EVChargingSection = () => {
             Eco-Friendly Electric Scooters
           </h3>
           <p className="text-gray-700 mb-4">
-            Zeway works as a mobility partner with Corporate, Educational Institutions,
-            Universities, City Development Authorities, Railways, Metro, Food Chains,
-            Service Delivery Companies, and Housing Societies to install
-            <span className="font-semibold"> affordable EV charging stations</span>. We focus
-            on providing <span className="font-semibold">eco-friendly electric scooters</span> and
-            <span className="font-semibold"> affordable EV charging</span> solutions to make
-            transportation more sustainable.
+            Green Glide works as a mobility partner with Corporate, Educational
+            Institutions, Universities, City Development Authorities, Railways,
+            Metro, Food Chains, Service Delivery Companies, and Housing
+            Societies to install
+            <span className="font-semibold">
+              {" "}
+              affordable EV charging stations
+            </span>
+            . We focus on providing{" "}
+            <span className="font-semibold">
+              eco-friendly electric scooters
+            </span>{" "}
+            and
+            <span className="font-semibold"> affordable EV charging</span>{" "}
+            solutions to make transportation more sustainable.
           </p>
           <p className="text-gray-700 mb-6">
-            Zeway is looking ahead to tie up with Public Parking, Local Government,
-            and Enterprises on a profit-sharing basis to optimize
-            <span className="font-semibold"> EV charging stations</span> across Delhi NCR,
-            providing a greener future for all.
+            Green Glide is looking ahead to tie up with Public Parking, Local
+            Government, and Enterprises on a profit-sharing basis to optimize
+            <span className="font-semibold"> EV charging stations</span> across
+            Delhi NCR, providing a greener future for all.
           </p>
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white rounded-md p-5 shadow-md text-center">
               <FaChargingStation className="text-2xl mx-auto mb-2" />
-              <p className="font-semibold">Get Charging Station installed for Free</p>
+              <p className="font-semibold">
+                Get Charging Station installed for Free
+              </p>
             </div>
             <div className="bg-white rounded-md p-5 shadow-md text-center">
               <FaTree className="text-2xl mx-auto mb-2" />

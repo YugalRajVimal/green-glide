@@ -1,5 +1,6 @@
 import { FaCheck } from "react-icons/fa";
 import { LucideSun, LucideCalendar, LucideRocket } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -16,7 +17,7 @@ export default function Services() {
 
         {/* Content */}
         <div className="relative text-center text-white">
-          <h1 className="text-4xl font-bold mb-3">Services</h1>
+          <h1 className="text-4xl font-bold mb-3 font-serif">Services</h1>
           <div className="flex items-center justify-center gap-2 bg-white text-black rounded-full px-4 py-1 text-sm">
             <span>Green Glide</span>
             <span className="text-gray-500">{`»`}</span>
@@ -27,7 +28,7 @@ export default function Services() {
 
       {/* About Us */}
       <section className="max-w-5xl mx-auto py-12 px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
+        <h2 className="text-3xl font-bold mb-4 font-serif">Our Plans</h2>
         <p className="text-gray-600 leading-relaxed">
           GreenGlide is a sustainable urban mobility company that offers
           electric scooters for hire, making eco-friendly travel accessible and
@@ -59,9 +60,11 @@ export default function Services() {
                 control
               </li>
             </ul>
-            <button className="mt-auto bg-green-500 text-white rounded-full px-6 py-3 font-semibold hover:bg-green-600 transition">
-              BOOK NOW →
-            </button>
+            <Link to="/contact-us" onClick={() => window.scrollTo(0, 0)}>
+              <button className="mt-auto bg-green-500 text-white rounded-full px-6 py-3 font-semibold hover:bg-green-600 transition">
+                BOOK NOW →
+              </button>
+            </Link>
           </div>
 
           {/* Weekly Plan */}
@@ -84,9 +87,11 @@ export default function Services() {
                 control
               </li>
             </ul>
-            <button className="mt-auto bg-white border border-green-600 text-green-700 rounded-full px-6 py-3 font-semibold hover:bg-green-100 transition">
-              GET STARTED →
-            </button>
+            <Link to="/contact-us" onClick={() => window.scrollTo(0, 0)}>
+              <button className="mt-auto bg-white border border-green-600 text-green-700 rounded-full px-6 py-3 font-semibold hover:bg-green-100 transition">
+                GET STARTED →
+              </button>
+            </Link>
           </div>
 
           {/* Monthly Plan */}
@@ -107,22 +112,26 @@ export default function Services() {
                 stations
               </li>
             </ul>
-            <button className="mt-auto bg-green-500 text-white rounded-full px-6 py-3 font-semibold hover:bg-green-600 transition">
-              SUBSCRIBE →
-            </button>
+            <Link to="/contact-us" onClick={() => window.scrollTo(0, 0)}>
+              <button className="mt-auto bg-green-500 text-white rounded-full px-6 py-3 font-semibold hover:bg-green-600 transition">
+                SUBSCRIBE →
+              </button>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Call to Action */}
       <section className="bg-green-600 text-white text-center py-12">
-        <h2 className="text-3xl font-bold mb-4">Ready to Ride Green?</h2>
+        <h2 className="text-3xl font-bold mb-4 font-serif">Ready to Ride Green?</h2>
         <p className="mb-6 text-lg">
           Download our app and start your eco-friendly commute today.
         </p>
-        <button className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
-          DOWNLOAD APP
-        </button>
+        <Link to="/contact-us" onClick={() => window.scrollTo(0, 0)}>
+          <button className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+            DOWNLOAD APP
+          </button>
+        </Link>
       </section>
     </div>
   );

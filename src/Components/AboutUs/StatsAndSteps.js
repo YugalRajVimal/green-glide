@@ -71,8 +71,8 @@ const StatsAndSteps = () => {
 
       {/* Steps Section */}
       <div className="text-center py-10">
-        <p className="text-green-500 font-semibold">EV SERVICES STEPS</p>
-        <h2 className="text-2xl md:text-3xl font-bold mt-2">
+        <p className="text-green-500 font-semibold font-serif">EV SERVICES STEPS</p>
+        <h2 className="text-2xl md:text-3xl font-bold mt-2 font-serif">
           3 easy steps to get quick help
         </h2>
 

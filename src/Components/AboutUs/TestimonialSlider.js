@@ -8,42 +8,42 @@ import "swiper/css/navigation";
 
 const testimonials = [
   {
-    name: "Rhett Kinedy",
+    name: "Rohan Jain",
     role: "HEAD OF MARKETING",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     comment:
       "After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The Trydus Co. not only revitalized our brand, but saved our nearly 100-year-old family business",
   },
   {
-    name: "Richard Powers",
+    name: "Karan Singh",
     role: "CEO CO-FOUNDER",
     image: "https://randomuser.me/api/portraits/men/33.jpg",
     comment:
       "After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The Trydus Co. not only revitalized our brand, but saved our nearly 100-year-old family business",
   },
   {
-    name: "Maria Rusconi",
+    name: "Priya Patel",
     role: "MANAGING DIRECTOR",
     image: "https://randomuser.me/api/portraits/women/34.jpg",
     comment:
       "After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The Trydus Co. not only revitalized our brand, but saved our nearly 100-year-old family business",
   },
   {
-    name: "Rhett Kinedy",
+    name: "Amit Kumar",
     role: "HEAD OF MARKETING",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     comment:
       "After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The Trydus Co. not only revitalized our brand, but saved our nearly 100-year-old family business",
   },
   {
-    name: "Richard Powers",
+    name: "Rahul Gupta",
     role: "CEO CO-FOUNDER",
     image: "https://randomuser.me/api/portraits/men/33.jpg",
     comment:
       "After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The Trydus Co. not only revitalized our brand, but saved our nearly 100-year-old family business",
   },
   {
-    name: "Maria Rusconi",
+    name: "Sonia Sharma",
     role: "MANAGING DIRECTOR",
     image: "https://randomuser.me/api/portraits/women/34.jpg",
     comment:
@@ -55,10 +55,10 @@ export default function TestimonialSlider() {
   return (
     <div className="bg-[#f2f7f5] pt-16 pb-36 px-4">
       <div className="text-center mb-12">
-        <p className="text-green-500 text-sm font-semibold tracking-wider uppercase">
+        <p className="text-green-500 text-sm font-semibold tracking-wider uppercase font-serif">
           ● Our Customer Say
         </p>
-        <h2 className="text-3xl font-bold mt-2">
+        <h2 className="text-3xl font-bold mt-2 font-serif">
           Here are some of our most valuable comments.
         </h2>
       </div>

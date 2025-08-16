@@ -7,11 +7,11 @@ const PricingSection = () => {
       <div className="rounded-tl-3xl rounded-br-3xl bg-zinc-200 max-w-7xl mx-auto flex flex-col gap-2 items-center overflow-hidden md:px-10">
         {/* Mission Section */}
         <div className="relative z-10 p-6 rounded-xl pl-10 ">
-          <span className="z-10 text-green-500 font-semibold text-sm flex items-center gap-2">
+          <span className="z-10 text-green-500 font-semibold text-sm flex items-center gap-2 font-serif">
             <span className="w-2 h-2 bg-green-500 rounded-full"></span> WHAT WE
             DO!
           </span>
-          <h2 className="z-10 text-4xl font-bold mt-4 leading-tight">
+          <h2 className="z-10 text-4xl font-bold mt-4 leading-tight font-serif">
             GreenGlide makes
             <br /> urban travel cleaner & easier
           </h2>
@@ -33,7 +33,7 @@ const PricingSection = () => {
           {/* Daily Plan */}
           <div className="bg-white flex-1 shadow  min-w-[300px]  max-w-[300px] h-[500px] p-8 flex flex-col items-start rounded-tl-3xl rounded-br-3xl mx-2">
             <div className="text-green-500 text-4xl mb-4">☀️</div>
-            <h3 className="text-xl font-semibold mb-4">Daily Plan</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">Daily Plan</h3>
             <p className="text-4xl font-bold mb-1">₹200</p>
             <p className="text-gray-500 mb-6">/day</p>
             <ul className="space-y-3 text-gray-600">
@@ -57,7 +57,7 @@ const PricingSection = () => {
           {/* Weekly Plan */}
           <div className="bg-green-200 flex-1 shadow  min-w-[300px]  max-w-[300px] h-[500px] p-8 flex flex-col items-start rounded-tl-3xl rounded-br-3xl mx-2">
             <div className="text-green-500 text-4xl mb-4">📅</div>
-            <h3 className="text-xl font-semibold mb-4">Weekly Plan</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">Weekly Plan</h3>
             <p className="text-4xl font-bold mb-1">₹1,200</p>
             <p className="text-gray-500 mb-6">/week</p>
             <ul className="space-y-3 text-gray-600">
@@ -82,7 +82,7 @@ const PricingSection = () => {
           {/* Monthly Plan */}
           <div className="bg-black flex-1  min-w-[300px]  max-w-[300px] text-white h-[500px] shadow p-8 flex flex-col items-start rounded-tl-3xl rounded-br-3xl mb-10 md:mb-0 mx-2">
             <div className="text-green-500 text-4xl mb-4">🚀</div>
-            <h3 className="text-xl font-semibold mb-4">Monthly Plan</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">Monthly Plan</h3>
             <p className="text-4xl font-bold mb-1">₹4,500</p>
             <p className="text-gray-400 mb-6">/month</p>
             <ul className="space-y-3 text-gray-300 ">

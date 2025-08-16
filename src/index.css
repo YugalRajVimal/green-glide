@@ -14,3 +14,7 @@
 /* * {
   font-family: "Torus", sans-serif;
 } */
+
+html {
+  scroll-behavior: smooth;
+}

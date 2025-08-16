@@ -38,13 +38,14 @@ import {
 import { IoLeafOutline } from "react-icons/io5";
 import { LuSmartphone } from "react-icons/lu";
 import { MdElectricScooter } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <section className="overflow-hidden flex flex-col justify-center">
       <div className="relative bg-[#8cc63f] flex justify-start min-h-[75vh]">
         {/* Left Social Icons */}
-        <div className="absolute z-20 left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 text-black text-xs font-bold">
+        {/* <div className="absolute z-20 left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 text-black text-xs font-bold">
           <span className="[writing-mode:vertical-rl] rotate-180">
             FOLLOW US
           </span>
@@ -52,7 +53,7 @@ const HeroSection = () => {
           <FaTwitter />
           <FaYoutube />
           <FaLinkedinIn />
-        </div>
+        </div> */}
 
         {/* Hero Content */}
         <div className="relative container ml-8 z-30  pl-8 pr-4 py-20 flex items-center justify-between">
@@ -99,15 +100,17 @@ const HeroSection = () => {
             </div>
 
             {/* Book Now Button */}
-            <button className="mt-10 bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-black/90 transition">
-              BOOK YOUR RIDE →
-            </button>
+            <Link to="/contact-us" onClick={() => window.scrollTo(0, 0)}>
+              <button className="mt-10 bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-black/90 transition">
+                BOOK YOUR RIDE →
+              </button>
+            </Link>
           </div>
 
           {/* Right Image */}
           <div className="absolute z-20 -bottom-[260px] md:-bottom-[100px] right-0 lg:-right-[150px]">
             <img
-              src="/heroImg.webp" // Replace with your transparent scooter image
+              src="scooterImages/komakiRed.png" // Replace with your transparent scooter image
               alt="GreenGlide e-Scooter"
               className="max-h-[350px] lg:max-h-[550px] xl:max-h-[650px] object-contain"
             />

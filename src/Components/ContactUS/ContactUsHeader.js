@@ -13,7 +13,7 @@ const ContactUsHeader = () => {
 
       {/* Content */}
       <div className="relative text-center text-white">
-        <h1 className="text-4xl font-bold mb-3">Contact Us</h1>
+        <h1 className="text-4xl font-bold mb-3 font-serif">Contact Us</h1>
         <div className="flex items-center justify-center gap-2 bg-white text-black rounded-full px-4 py-1 text-sm">
           <span>Green Glide</span>
           <span className="text-gray-500">{`»`}</span>

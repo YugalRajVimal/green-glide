@@ -47,9 +47,9 @@ const AdvantagesSection = () => {
       <div className="text-center mb-12">
         <div className="flex items-center justify-center gap-2 text-sm font-semibold uppercase">
           <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-          <span className="tracking-wider text-gray-700">Why Choose GreenGlide</span>
+          <span className="tracking-wider text-gray-700 font-serif">Why Choose GreenGlide</span>
         </div>
-        <h2 className="text-3xl sm:text-4xl font-bold mt-3">
+        <h2 className="text-3xl sm:text-4xl font-bold mt-3 font-serif">
           Advantages of Riding with GreenGlide
         </h2>
         <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
@@ -77,7 +77,7 @@ const AdvantagesSection = () => {
         {/* Scooter image */}
         <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
           <img
-            src="/advantageImg.webp"
+            src="/scooterImages/komakiWhite.png"
             alt="GreenGlide e-scooter"
             className="w-[300px] sm:w-[400px] md:w-[500px] scale-[1.2]"
           />

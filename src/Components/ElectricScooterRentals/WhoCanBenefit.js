@@ -25,7 +25,7 @@ const BenefitSection = ({
 
         {/* Text */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h3 className="text-3xl font-light mb-4">
+          <h3 className="text-3xl font-light mb-4 font-serif">
             <span
               className={`${
                 bgColor === "bg-green-500" ? "text-white" : "text-green-500"
@@ -41,9 +41,9 @@ const BenefitSection = ({
             }`}
             dangerouslySetInnerHTML={{ __html: description }}
           />
-          <button className="mt-6 bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 shadow-md transition">
+          {/* <button className="mt-6 bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 shadow-md transition">
             {buttonText}
-          </button>
+          </button> */}
         </div>
 
         {/* Image Right */}
@@ -66,7 +66,7 @@ const WhoCanBenefit = () => {
   return (
     <div className="">
       <div className="text-center py-10">
-        <h1 className="text-6xl font-semibold">
+        <h1 className="text-4xl md:text-6xl font-semibold font-serif">
           <span className="text-green-500">Who Can</span>{" "}
           <span className="text-zinc-900">Benefit</span>{" "}
           <span className="text-green-500">?</span>
@@ -90,7 +90,7 @@ const WhoCanBenefit = () => {
         title="PSU's"
         subtitle="& Government"
         description={`The Government of India is actively promoting alternative transportation methods to reduce the consumption of fossil fuels and encourage sustainable practices.<br/><br/>
-        PSUs and government organizations can play a pivotal role in this initiative by contributing to environmental conservation and adopting <strong>hire e-scooter</strong> solutions. With Zeway’s e-hiring schemes, they can undoubtedly progress to green mobility.<br/><br/>
+        PSUs and government organizations can play a pivotal role in this initiative by contributing to environmental conservation and adopting <strong>hire e-scooter</strong> solutions. With Green Glide’s e-hiring schemes, they can undoubtedly progress to green mobility.<br/><br/>
         We offer <strong>specialized rental schemes</strong> and tailored plans specifically designed for government and PSU requirements, ensuring a seamless and sustainable transportation experience.`}
         buttonText="ENQUIRY NOW"
         image="ben2.jpg"
@@ -100,8 +100,8 @@ const WhoCanBenefit = () => {
         title="Educational"
         subtitle="Institutions"
         description={`Educational institutions can take a significant step toward reducing their carbon footprint by declaring their campus a <strong>Green Mobility Campus</strong>.<br/><br/>
-        Zeway specializes in designing and developing <strong>sustainable e-mobility solutions</strong> tailored to the needs of your campus. As your dedicated mobility partner, we ensure our services are both cost-effective and value-driven.<br/><br/>
-        With Zeway, students and staff can <strong>hire e-scooters</strong> on a rental basis starting at just ₹99 per day*, promoting <strong>eco-friendly e-scooter rental</strong> options that align with sustainability goals.`}
+        Green Glide specializes in designing and developing <strong>sustainable e-mobility solutions</strong> tailored to the needs of your campus. As your dedicated mobility partner, we ensure our services are both cost-effective and value-driven.<br/><br/>
+        With Green Glide, students and staff can <strong>hire e-scooters</strong> on a rental basis starting at just ₹99 per day*, promoting <strong>eco-friendly e-scooter rental</strong> options that align with sustainability goals.`}
         buttonText="ENQUIRY NOW"
         image="ben3.jpg"
         imagePosition="left"
@@ -110,8 +110,8 @@ const WhoCanBenefit = () => {
         title="Societies"
         subtitle="& Apartments"
         description={`Residential societies and apartments spread across large areas can enhance their value by adopting <strong>green energy vehicles</strong>, reducing pollution and the consumption of carbon fuels.<br/><br/>
-        Zeway offers <strong>affordable electric scooter rental</strong> schemes designed specifically for residents, along with convenient charging stations and battery swapping facilities.<br/><br/>
-        An association between Zeway and RWAs or Society Welfare Associations can provide residents with access to a <strong>low-cost green mobility solution</strong>, fostering a cleaner and more sustainable living environment.`}
+        Green Glide offers <strong>affordable electric scooter rental</strong> schemes designed specifically for residents, along with convenient charging stations and battery swapping facilities.<br/><br/>
+        An association between Green Glide and RWAs or Society Welfare Associations can provide residents with access to a <strong>low-cost green mobility solution</strong>, fostering a cleaner and more sustainable living environment.`}
         buttonText="ENQUIRY NOW"
         image="ben4.jpg"
         imagePosition="right"

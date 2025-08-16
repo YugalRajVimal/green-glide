@@ -9,11 +9,11 @@ const ContactSection = () => {
       <div className="text-center mb-12">
         <div className="flex justify-center items-center gap-2 mb-2">
           <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-          <span className="text-sm font-medium text-gray-700 uppercase">
+          <span className="text-sm font-medium text-gray-700 uppercase font-serif">
             Get in Touch
           </span>
         </div>
-        <h2 className="text-4xl font-bold text-black mb-3">
+        <h2 className="text-4xl font-bold text-black mb-3 font-serif">
           We’d Love To Help You
         </h2>
         <p className="text-gray-500 max-w-xl mx-auto">
@@ -31,9 +31,7 @@ const ContactSection = () => {
           </div>
           <div>
             <h3 className="font-bold text-lg">Our Location</h3>
-            <p className="text-gray-500">
-              456, Lorem Street, New York, 33454, NY.
-            </p>
+            <p className="text-gray-500">SK 38, Sector 117 , Noida 201301</p>
           </div>
         </div>
 
@@ -45,7 +43,9 @@ const ContactSection = () => {
           <div>
             <h3 className="font-bold text-lg">Phone Number</h3>
             <p className="text-gray-500">Emergency Cases</p>
-            <p className="text-gray-500">+1 (088) 456 888 (24/7)</p>
+            <a href="tel:+919999999999" className="text-gray-500">
+              +919999999999
+            </a>
           </div>
         </div>
 
@@ -54,10 +54,18 @@ const ContactSection = () => {
           <div className="text-green-500 text-4xl">
             <FaEnvelope />
           </div>
-          <div>
+          <div className="flex flex-col">
             <h3 className="font-bold text-lg">Email Address</h3>
-            <p className="text-gray-500">contact@example.com</p>
-            <p className="text-gray-500">admin@example.com</p>
+
+            <a href="mailto:Sales@greenglide.net.in" className="text-gray-500">
+              Sales@greenglide.net.in
+            </a>
+            <a
+              href="mailto:Support@greenglide.net.in"
+              className="text-gray-500"
+            >
+              Support@greenglide.net.in
+            </a>
           </div>
         </div>
       </div>

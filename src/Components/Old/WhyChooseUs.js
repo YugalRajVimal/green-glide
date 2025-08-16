@@ -1,12 +1,17 @@
 // components/WhyChooseUs.jsx
 
-import { FaBatteryFull, FaNetworkWired, FaGasPump, FaCar } from "react-icons/fa";
+import {
+  FaBatteryFull,
+  FaNetworkWired,
+  FaGasPump,
+  FaCar,
+} from "react-icons/fa";
 
 const benefits = [
   {
     icon: <FaBatteryFull />, // Replaced with SVGs/icons as needed
     title: "Environment Friendly",
-    desc: "Zeway’s electric scooters produce zero emissions, contributing to a cleaner, greener planet. With no fuel burning, they help lower carbon footprints and support global sustainability efforts.",
+    desc: "Green Glide’s electric scooters produce zero emissions, contributing to a cleaner, greener planet. With no fuel burning, they help lower carbon footprints and support global sustainability efforts.",
   },
   {
     icon: <FaNetworkWired />,
@@ -65,7 +70,7 @@ const WhyChooseUs = () => {
         {/* CTA Button */}
         <div className="mt-14">
           <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md transition">
-            View Zeway Profile
+            View Green Glide Profile
           </button>
         </div>
       </div>

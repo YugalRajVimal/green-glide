@@ -9,35 +9,35 @@ import "swiper/css/pagination";
 const testimonials = [
   {
     text: "GreenGlide transformed our outdated packaging into a fully eco-friendly solution. Not only did our environmental footprint shrink, but customer appreciation soared.",
-    name: "Amelia Brooks",
+    name: "Neha Patel",
     role: "Sustainability Lead, FreshGro Foods",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
     rating: 5,
   },
   {
     text: "Working with GreenGlide was the easiest decision we made this year. Their team streamlined our operations and helped us reach our net-zero targets ahead of schedule.",
-    name: "Daniel Chen",
+    name: "Rohan Mehta",
     role: "Operations Director, EcoRide Mobility",
     image: "https://randomuser.me/api/portraits/men/46.jpg",
     rating: 5,
   },
   {
     text: "From concept to execution, GreenGlide brought our sustainable home project to life with precision and creativity. We couldn’t be happier with the results.",
-    name: "Sofia Martinez",
+    name: "Priya Rao",
     role: "Founder, Verde Living",
     image: "https://randomuser.me/api/portraits/women/65.jpg",
     rating: 4,
   },
   {
     text: "GreenGlide’s expertise in eco-branding elevated our market presence. Our new identity resonates perfectly with environmentally conscious customers.",
-    name: "Mark Thompson",
+    name: "Amit Jain",
     role: "CEO, PureLeaf Organics",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     rating: 5,
   },
   {
     text: "They didn’t just deliver a service; they built a partnership rooted in our shared passion for sustainability.",
-    name: "Hannah Lee",
+    name: "Sonia Singh",
     role: "Marketing Head, SolarNest",
     image: "https://randomuser.me/api/portraits/women/30.jpg",
     rating: 5,
@@ -53,9 +53,9 @@ export default function TestimonialSlider() {
       {/* Heading */}
       <div className="text-center mb-6">
         <p className="text-green-600 text-xs font-semibold tracking-widest">
-          ● <span className="text-black text-sm">TESTIMONIALS</span>
+          ● <span className="text-black text-sm font-serif">TESTIMONIALS</span>
         </p>
-        <h2 className="text-3xl font-bold text-gray-900">
+        <h2 className="text-3xl font-bold text-gray-900 font-serif">
           What Our Clients Say About GreenGlide
         </h2>
       </div>

@@ -32,7 +32,7 @@ const WhyChooseGreenGlide = () => {
   return (
     <section className="bg-gray-50 py-16 px-6 lg:px-20">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-semibold">
+        <h2 className="text-3xl md:text-4xl font-semibold font-serif">
           <span className="text-green-500">Why Choose </span>
           <span className="text-[#0F172A]">Green Glide</span>{" "}
           <span className="text-[#0F172A]">for E-Scooter Rentals?</span>

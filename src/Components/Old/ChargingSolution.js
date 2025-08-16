@@ -22,7 +22,7 @@ const ChargingSolution = () => {
       {/* Content */}
       <div className="min-h-screen flex justify-center items-center text-white text-center py-24 px-4">
         <div className="text-3xl md:text-4xl font-bold mb-12 w-1/3 h-full flex justify-center items-center">
-          Zeway EV Charging Solutions
+          Green Glide EV Charging Solutions
         </div>
 
         {/* Grid Cards */}
@@ -48,8 +48,8 @@ const ChargingSolution = () => {
               <h3 className="font-bold text-lg">Our Network</h3>
             </div>
             <p className="text-sm">
-              Easily connect your smartphone to a Zeway charging station using
-              our intuitive app. Start charging, manage the duration, and
+              Easily connect your smartphone to a Green Glide charging station
+              using our intuitive app. Start charging, manage the duration, and
               monitor energy usage in real-time, ensuring a smooth and efficient
               process for your affordable EV charging needs.
             </p>

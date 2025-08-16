@@ -10,13 +10,13 @@ const testimonials = [
     name: "Radhika Saini",
     image: "/images/radhika.jpg",
     rating: 5,
-    text: "I am using my TATA Nexon for last 6 months now. I had recently find a Charging Station by Zeway Mobility at my office building at Noida Sector-2. This is very convenient to charge my vehicle because I can utilize my time while working at office.",
+    text: "I am using my TATA Nexon for last 6 months now. I had recently find a Charging Station by Green Glide Mobility at my office building at Noida Sector-2. This is very convenient to charge my vehicle because I can utilize my time while working at office.",
   },
   {
     name: "Amit Verma",
     image: "/images/amit.jpg",
     rating: 4,
-    text: "EV charging has become super easy with Zeway Mobility's services. I save a lot of time, and the charging stations are always clean and well-maintained.",
+    text: "EV charging has become super easy with Green Glide Mobility's services. I save a lot of time, and the charging stations are always clean and well-maintained.",
   },
   {
     name: "Neha Kapoor",

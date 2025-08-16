@@ -5,18 +5,18 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-12">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
-        {/* About Zeway */}
+        {/* About Green Glide */}
         <div>
-          <h3 className="text-lg font-bold mb-4">About Zeway</h3>
+          <h3 className="text-lg font-bold mb-4">About Green Glide</h3>
           <img
             src="/images/zeway-logo.png"
-            alt="Zeway Mobility"
+            alt="Green Glide Mobility"
             className="h-12 mb-4"
           />
           <p className="text-gray-300 leading-relaxed">
-            ZEWAY MOBILITY Pvt. Ltd. is a visionary start-up with a founding
-            team that is deeply passionate about creating positive social impact
-            by providing Electric Mobility solutions.
+            Green Glide MOBILITY Pvt. Ltd. is a visionary start-up with a
+            founding team that is deeply passionate about creating positive
+            social impact by providing Electric Mobility solutions.
           </p>
         </div>
 
@@ -34,9 +34,9 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Zeway */}
+        {/* Contact Green Glide */}
         <div>
-          <h3 className="text-lg font-bold mb-4">Contact Zeway</h3>
+          <h3 className="text-lg font-bold mb-4">Contact Green Glide</h3>
           <p className="mb-2">
             <span className="font-semibold">Mobile:</span> +91-8882204353
           </p>
@@ -44,14 +44,14 @@ const Footer = () => {
             <span className="font-semibold">Phone:</span> 0120-3113375
           </p>
           <p>
-            <span className="font-semibold">Email:</span> support@zeway.in
+            <span className="font-semibold">Email:</span> support@Green Glide.in
           </p>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className="max-w-6xl mx-auto px-6 mt-10 flex flex-col md:flex-row items-center justify-between border-t border-gray-700 pt-4">
-        <p className="text-gray-400 text-sm">Copyright © 2025 Zeway.in</p>
+        <p className="text-gray-400 text-sm">Copyright © 2025 Green Glide.in</p>
         <div className="flex gap-4 mt-4 md:mt-0">
           <a href="#" className="text-white hover:text-green-500">
             <FaFacebookF />
