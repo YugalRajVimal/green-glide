@@ -19,7 +19,7 @@ const ContactSection2 = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const whatsappMessage = `Hello, I'm ${formData.firstName} ${formData.lastName}. My email is ${formData.email} and my phone number is ${formData.phone}. ${formData.message}`;
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=+919999999999&text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=+919958878741&text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -49,7 +49,7 @@ const ContactSection2 = () => {
             /> */}
             <div>
               <p className="text-xs">HAVE A QUESTION?</p>
-              <a href="tel:+919999999999" className="text-xl font-bold">+919999999999</a>
+              <a href="tel:+919958878741" className="text-xl font-bold">+919958878741</a>
             </div>
           </div>
 

@@ -96,7 +96,7 @@ export default function GreenGlideFooter() {
           <p className="mt-4 text-gray-300">
             Have questions or need assistance? Our support team is here to help.
           </p>
-          <p className="text-[#7cc143] text-xl font-bold mt-4">+919999999999</p>
+          <p className="text-[#7cc143] text-xl font-bold mt-4">+919958878741</p>
           <p className="text-gray-300 mt-2">Sales@greenglide.net.in</p>
           <p className="text-gray-300 mt-1">Support@greenglide.net.in</p>
         </div>
